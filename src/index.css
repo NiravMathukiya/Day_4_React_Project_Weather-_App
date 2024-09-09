@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* In your Tailwind config file or global styles */
+@layer utilities {
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+}
